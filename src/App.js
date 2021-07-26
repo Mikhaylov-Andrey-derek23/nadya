@@ -19,11 +19,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1 className="text-center my-3">Надя с днем рождения!</h1>
+        <h1 className="text-center my-3">Надя,<br/> С Днем Рождения!</h1>
       </header>
       <Congratulations/>
       <h2 className="text-center py-3">
-        Хотим подарить список стихотворений прочитанных Голышевой Надей   
+        Подарок в День рождения твои детские стихотворения!
       </h2>
       {
         data.length > 0 ?data.map( (e, index)=> <Card data={e} key={index}/>) : ''
